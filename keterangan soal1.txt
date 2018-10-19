@@ -1,0 +1,19 @@
+//untuk mengimport dari modul shp .
+import shapefile
+//untuk menginisalisasi shapefilenya
+ w=shapefile.
+//untuk membaca type dari W nya tadi 
+Writer() w.shapeType 
+
+//membuat 2 buah kolom 
+ w.field("kolom1","C") 
+w.field("kolom2","C") 
+//memasukkan data ke dalam file 
+ w.record("ngek","satu") 
+w.record("ngok","dua") 
+
+//menunjukka letak posisi x,y
+ w.point(1,1) w.point(2,2) 
+
+//file dengan nama soal1.
+ w.save("soal1")
